@@ -3,8 +3,8 @@ package toml
 import (
 	"bytes"
 
+	"github.com/Augustu/go-micro/v2/config/encoder"
 	"github.com/BurntSushi/toml"
-	"github.com/micro/go-micro/v2/config/encoder"
 )
 
 type tomlEncoder struct{}

@@ -5,16 +5,16 @@ package go_micro_network
 
 import (
 	fmt "fmt"
+	_ "github.com/Augustu/go-micro/v2/router/service/proto"
 	proto "github.com/golang/protobuf/proto"
-	_ "github.com/micro/go-micro/v2/router/service/proto"
 	math "math"
 )
 
 import (
 	context "context"
-	api "github.com/micro/go-micro/v2/api"
-	client "github.com/micro/go-micro/v2/client"
-	server "github.com/micro/go-micro/v2/server"
+	api "github.com/Augustu/go-micro/v2/api"
+	client "github.com/Augustu/go-micro/v2/client"
+	server "github.com/Augustu/go-micro/v2/server"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

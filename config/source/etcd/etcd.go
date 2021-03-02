@@ -6,9 +6,9 @@ import (
 	"net"
 	"time"
 
+	"github.com/Augustu/go-micro/v2/config/source"
 	cetcd "github.com/coreos/etcd/clientv3"
 	"github.com/coreos/etcd/mvcc/mvccpb"
-	"github.com/micro/go-micro/v2/config/source"
 )
 
 // Currently a single etcd reader

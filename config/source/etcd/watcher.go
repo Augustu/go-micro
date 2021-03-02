@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Augustu/go-micro/v2/config/source"
 	cetcd "github.com/coreos/etcd/clientv3"
-	"github.com/micro/go-micro/v2/config/source"
 )
 
 type watcher struct {

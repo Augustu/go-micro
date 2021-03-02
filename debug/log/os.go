@@ -3,8 +3,8 @@ package log
 import (
 	"sync"
 
+	"github.com/Augustu/go-micro/v2/util/ring"
 	"github.com/google/uuid"
-	"github.com/micro/go-micro/v2/util/ring"
 )
 
 // Should stream from OS

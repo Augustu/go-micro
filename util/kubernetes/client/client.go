@@ -13,8 +13,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/util/kubernetes/api"
+	"github.com/Augustu/go-micro/v2/logger"
+	"github.com/Augustu/go-micro/v2/util/kubernetes/api"
 )
 
 var (
@@ -23,7 +23,7 @@ var (
 	// ErrReadNamespace is returned when the names could not be read from service account
 	ErrReadNamespace = errors.New("Could not read namespace from service account secret")
 	// DefaultImage is default micro image
-	DefaultImage = "micro/go-micro"
+	DefaultImage = "Augustu/go-micro"
 	// DefaultNamespace is the default k8s namespace
 	DefaultNamespace = "default"
 )

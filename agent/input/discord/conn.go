@@ -5,9 +5,9 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/Augustu/go-micro/v2/agent/input"
+	"github.com/Augustu/go-micro/v2/logger"
 	"github.com/bwmarrin/discordgo"
-	"github.com/micro/go-micro/v2/agent/input"
-	"github.com/micro/go-micro/v2/logger"
 )
 
 type discordConn struct {

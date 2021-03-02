@@ -13,10 +13,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Augustu/go-micro/v2/logger"
+	"github.com/Augustu/go-micro/v2/registry"
 	"github.com/coreos/etcd/clientv3"
 	"github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes"
-	"github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/registry"
 	hash "github.com/mitchellh/hashstructure"
 	"go.uber.org/zap"
 )

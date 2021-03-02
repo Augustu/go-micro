@@ -3,10 +3,10 @@ package tunnel
 import (
 	"time"
 
+	"github.com/Augustu/go-micro/v2/logger"
+	"github.com/Augustu/go-micro/v2/transport"
+	"github.com/Augustu/go-micro/v2/transport/quic"
 	"github.com/google/uuid"
-	"github.com/micro/go-micro/v2/logger"
-	"github.com/micro/go-micro/v2/transport"
-	"github.com/micro/go-micro/v2/transport/quic"
 )
 
 var (

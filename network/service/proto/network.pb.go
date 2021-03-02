@@ -6,8 +6,8 @@ package go_micro_network
 import (
 	context "context"
 	fmt "fmt"
+	proto1 "github.com/Augustu/go-micro/v2/router/service/proto"
 	proto "github.com/golang/protobuf/proto"
-	proto1 "github.com/micro/go-micro/v2/router/service/proto"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"

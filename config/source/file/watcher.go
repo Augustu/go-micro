@@ -5,8 +5,8 @@ package file
 import (
 	"os"
 
+	"github.com/Augustu/go-micro/v2/config/source"
 	"github.com/fsnotify/fsnotify"
-	"github.com/micro/go-micro/v2/config/source"
 )
 
 type watcher struct {
